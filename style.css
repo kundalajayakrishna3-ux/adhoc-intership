@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:url("bg.jpg");
+background-size:cover;
+background-attachment:fixed;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:rgba(0,0,0,0.7);
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+header{
+text-align:center;
+padding:80px 20px;
+}
+
+header img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+}
+
+header h1{
+margin-top:20px;
+font-size:45px;
+}
+
+header p{
+margin:15px 0;
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#00aaff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#0066ff;
+}
+
+section{
+width:80%;
+margin:30px auto;
+padding:25px;
+background:rgba(0,0,0,0.6);
+border-radius:15px;
+}
+
+section h2{
+margin-bottom:15px;
+color:#00c3ff;
+}
+
+.card-container{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.card{
+background:white;
+color:black;
+padding:20px;
+border-radius:10px;
+font-weight:bold;
+}
+
+#contact{
+text-align:center;
+}
